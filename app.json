@@ -5,6 +5,7 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "userInterfaceStyle": "light",
+    "scheme": "todoapp",
     "splash": {
       "backgroundColor": "#ffffff",
       "resizeMode": "contain"
@@ -13,13 +14,28 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.todoapp.app"
     },
     "android": {
       "adaptiveIcon": {
         "backgroundColor": "#ffffff"
-      }
-    }
+      },
+      "package": "com.todoapp.app"
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Sovellus tarvitsee luvan käyttää kuvia.",
+          "cameraPermission": "Sovellus tarvitsee luvan käyttää kameraa."
+        }
+      ]
+    ]
   }
 }
 
