@@ -95,7 +95,6 @@ Käytimme seuraavia teknologioita:
 
 Lisätietoja löytyy seuraavista tiedostoista:
 - REQUIREMENTS.md - Vaatimusdokumentti
-- TEAMWORK_EVALUATION.md - Ryhmätyön arviointi
 
 ## Huomioita
 
